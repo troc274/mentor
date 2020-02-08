@@ -1,0 +1,10 @@
+node_modules
+dist
+.cache
+.DS_Store
+npm-debug.log
+*.sublime-project
+*.sublime-workspace
+package-lock.json
+.idea
+tests

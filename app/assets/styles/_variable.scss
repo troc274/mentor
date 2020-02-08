@@ -1,0 +1,20 @@
+@mixin calc($property, $expression){
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+@mixin scale($expresion){
+  -webkit-transform: scale($expresion);
+  -moz-transform: scale($expresion);
+  -o-transform: scale($expresion);
+  transform: scale($expresion);
+}
+
+@function px-to-rem ($px){
+  @return $px/16+rem;
+}
+
+$themeColor : #0077C8;
+$textHover: #00adee;
+$btnHover: #3aaaff;
